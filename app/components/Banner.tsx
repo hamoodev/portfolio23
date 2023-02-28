@@ -3,9 +3,6 @@ import { useEffect, useState } from "react";
 import bannerImage from "../assets/images/developer.svg";
 
 export default function Banner() {
-	const defaultName = "Mohammed Balfaqih";
-
-	const [name, setName] = useState("Mohammed Balfaqih");
 
 	const HackerText = ({ defaultText, speed }) => {
 		const [text, setText] = useState(defaultText);
@@ -38,7 +35,7 @@ export default function Banner() {
 	};
 
 	return (
-		<section className="bg-primary text-white min-h-screen flex items-center justify-center">
+		<section className="bg-primary text-white min-h-full flex items-center justify-center">
 			<img
 				className=" absolute bottom-0 right-0 w-56 md:w-96"
 				src={bannerImage}
