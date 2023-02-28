@@ -48,7 +48,7 @@ export default function Index() {
 		<div className=" pb-40">
 			<Banner />
 
-			<section className=" min-h-screen flex justify-center">
+			<section id="projects" className=" min-h-screen flex justify-center">
 				<div className="md:max-w-4xl xl:max-w-7xl w-full">
 					<h1 className=" text-center text-3xl text-primary font-medium mt-5">
 						Projects

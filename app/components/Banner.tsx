@@ -95,12 +95,12 @@ export default function Banner() {
 					</li>
 				</ul>
 
-				<Link
-					to="/projects"
+				<a
+					href="#projects"
 					className=" text-center hover:border-2 text-accent hover:border-accent w-52 rounded-sm p-1  font-medium hover:bg-accent text-lg hover:text-black duration-200"
 				>
 					<HackerText defaultText="Projects" speed={30} />
-				</Link>
+				</a>
 			</div>
 		</section>
 	);
