@@ -1,12 +1,19 @@
-import dhall from '../images/projects/dhall.png'
+import cifar10 from '../images/projects/cifar10.png'
+import comp2005 from '../images/projects/comp2005.png'
 import coremenus from '../images/projects/coremenus.png'
+import dhall from '../images/projects/dhall.png'
+import gdq from '../images/projects/gdq.png'
+import school from '../images/projects/school.png'
 import surgeon from '../images/projects/surgeon.png'
 import token from '../images/projects/token.png'
-import school from '../images/projects/school.png'
-import comp2005 from '../images/projects/comp2005.png'
-import gdq from '../images/projects/gdq.png'
 
 module.exports = [
+  {
+    name: "CIFAR10 Classifier",
+    description: "This a deep learning model for classifying cifar10 images. I used PyTorch and OpenCv to preprocess the images, and then build a custom model to classify the images. I ended up with a 93% accuracy on the test set.",
+    tags: ["PyTorch", "Python3", "Machine Learning", "Deep Learning", "Image Classification", "OpenCV"],
+    imageURL: cifar10,
+  },
   {
     name: "Coremenus",
     description: "Coremenus is a user-friendly software solution that simplifies the process of creating and managing digital menus for restaurants. It allows businesses to create visually appealing menus that can be easily updated in real-time. This project is my first SaaS model, and I learnt a lot building it.",
