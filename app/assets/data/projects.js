@@ -3,12 +3,20 @@ import comp2005 from '../images/projects/comp2005.png'
 import coremenus from '../images/projects/coremenus.png'
 import dhall from '../images/projects/dhall.png'
 import gdq from '../images/projects/gdq.png'
+import nacti from '../images/projects/nacti.jpg'
 import school from '../images/projects/school.png'
 import surgeon from '../images/projects/surgeon.png'
 import token from '../images/projects/token.png'
 import williamWick from '../images/projects/williamwick.png'
 
 module.exports = [
+    {
+        name: "NACTI Image Preprocessing and Classification",
+        description: "My teammate and I explored preprocessing techniques to improve image classification models. We used North America Camera Trap dataset to train a classifier to detect species in the image. We also applied the methods on CIFAR10 dataset. I was responsible to develop the deep learning model using PyTorch. I used AlexNet and ResNet50. I also tried to use FasterRCNN to segment images for better classification. Source code, report, and presentation can be found below. This project was done for COMP 3301 at Memorial University of Newfoundland.",
+        tags: ["PyTorch", "OpenCV", "Python", "ResNet", "AlexNet", "FasterRCNN", "Wandb"],
+        link: "https://github.com/MUN-McIntyre/course-project-project-hamood",
+        imageURL: nacti,
+    },
     {
         name: "William Wick (Game Project)",
         description: "Developed a custom game engine with my team to build a top-down shooter game called William Wick. We used C++, SFML, and IMGUI to build the game engine. Everything in the game engine from physics to rendering was done from scratch.",
