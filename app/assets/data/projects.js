@@ -12,7 +12,7 @@ import williamWick from '../images/projects/williamwick.png'
 module.exports = [
     {
         name: "NACTI Image Preprocessing and Classification",
-        description: "My teammate and I explored preprocessing techniques to improve image classification models. We used North America Camera Trap dataset to train a classifier to detect species in the image. We also applied the methods on CIFAR10 dataset. I was responsible to develop the deep learning model using PyTorch. I used AlexNet and ResNet50. I also tried to use FasterRCNN to segment images for better classification. Source code, report, and presentation can be found below. This project was done for COMP 3301 at Memorial University of Newfoundland.",
+        description: "My Teammate and I explored preprocessing techniques for image classification using the North America Camera Trap dataset and CIFAR10. I developed PyTorch models, employing AlexNet and ResNet50. Additionally, FasterRCNN was used for image segmentation. Find the project's source code, report, and presentation for COMP 3301 at Memorial University of Newfoundland below.",
         tags: ["PyTorch", "OpenCV", "Python", "ResNet", "AlexNet", "FasterRCNN", "Wandb"],
         link: "https://github.com/MUN-McIntyre/course-project-project-hamood",
         imageURL: nacti,
