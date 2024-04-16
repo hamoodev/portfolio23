@@ -11,12 +11,19 @@ import williamWick from '../images/projects/williamwick.png'
 
 module.exports = [
     {
-        name: "NACTI Image Preprocessing and Classification",
-        description: "My Teammate and I explored preprocessing techniques for image classification using the North America Camera Trap dataset and CIFAR10. I developed PyTorch models, employing AlexNet and ResNet50. Additionally, FasterRCNN was used for image segmentation. Find the project's source code, report, and presentation below.",
-        tags: ["PyTorch", "OpenCV", "Python", "ResNet", "AlexNet", "FasterRCNN", "Wandb"],
-        link: "https://github.com/MUN-McIntyre/course-project-project-hamood",
+        name: "Wildlife Species Identification (ongoing)",
+        description: "As part of my final year in Computer Science, I worked on my honors project and research, which focused on identifying species in images taken from the wild in Nova Scotia. I worked under the DIAG Lab from my university and NRR from Nova Scotia to make this happen.",
+        tags: ["PyTorch", "OpenCV", "Python", "Deep Learning", "ResNet", "FasterRCNN", "Wandb"],
         imageURL: nacti,
+        link: "https://diaglab.cs.mun.ca/"
     },
+    // {
+    //     name: "NACTI Image Preprocessing and Classification",
+    //     description: "My Teammate and I explored preprocessing techniques for image classification using the North America Camera Trap dataset and CIFAR10. I developed PyTorch models, employing AlexNet and ResNet50. Additionally, FasterRCNN was used for image segmentation. Find the project's source code, report, and presentation below.",
+    //     tags: ["PyTorch", "OpenCV", "Python", "ResNet", "AlexNet", "FasterRCNN", "Wandb"],
+    //     link: "https://github.com/MUN-McIntyre/course-project-project-hamood",
+    //     imageURL: nacti,
+    // },
     {
         name: "William Wick (Game Project)",
         description: "Developed a custom game engine with my team to build a top-down shooter game called William Wick. We used C++, SFML, and IMGUI to build the game engine. Everything in the game engine from physics to rendering was done from scratch.",
@@ -25,10 +32,11 @@ module.exports = [
         imageURL: williamWick,
     },
     {
-        name: "CIFAR10 Classifier (Code By December 20)",
+        name: "CIFAR10 Classifier   ",
         description: "This a deep learning model for classifying cifar10 images. I used PyTorch and OpenCv to preprocess the images, and then build a custom model to classify the images. I ended up with a 93% accuracy on the test set.",
         tags: ["PyTorch", "Python3", "Machine Learning", "Deep Learning", "Image Classification", "OpenCV"],
         imageURL: cifar10,
+        link: "https://github.com/MUN-McIntyre/course-project-project-hamood",
     },
     {
         name: "Coremenus",
@@ -55,14 +63,14 @@ module.exports = [
         description: "I made this ERC20 smart contract while learning blockchain. After making a contact, I made a web app for trading the token I made. Users can buy and sell the token using MetaMask.",
         tags: ["VueJs", "NuxtJs", "Web 3.0", "MetaMask", "Solidity"],
         imageURL: token,
-        link: 'https://github.com/HaMoOoOd25/hmdTokenSite'
+        link: 'https://github.com/hamoodev/hmdTokenSite'
     },
     {
         name: "School Dismissal",
         description: "I thought about this solution while picking up my siblings from school. This enables parents to safely call their kids from school. They can all them either using the mobile app, or by scanning the NFC card outside school. I also built an Arduino NFC scanner that connects to the server using Web Socket. It will call the right children that belongs to the NFC card.",
         tags: ["VueJs", "NuxtJs", "Web Socket", "C", "Arduino"],
         imageURL: school,
-        link: 'https://github.com/HaMoOoOd25/school-dismissal'
+        link: 'https://github.com/hamoodev/school-dismissal'
     },
     {
         name: "Game Dev Qatar Website",
@@ -81,14 +89,14 @@ module.exports = [
         name: "CSC Discord Bot",
         description: "I made a large discord bot that has tons of features. Moderation, economy, mini games, factions, pets, and a lot more.",
         tags: ["NodeJs", "DiscordJs", "MongoDB"],
-        link: "https://github.com/HaMoOoOd25/maweather",
+        link: "https://github.com/hamoodev/maweather",
         imageURL: "http://droplr.com/wp-content/uploads/2020/09/discord-bots-e1635362784159.png"
     },
     {
         name: "I am Rich!",
         description: "This Flutter App is copy of the popular (I am rich) mobile app. It only shows an image of diamond.",
         tags: ["Flutter", "Dart"],
-        link: 'https://github.com/HaMoOoOd25/iamrich'
+        link: 'https://github.com/hamoodev/iamrich'
     },
     {
         name: "Discord.style Discord Bot",
@@ -99,7 +107,7 @@ module.exports = [
         name: "Weather App",
         description: "My first React Native project",
         tags: ["React Native", "Axios"],
-        link: "https://github.com/HaMoOoOd25/maweather/tree/master/src"
+        link: "https://github.com/hamoodev/maweather/tree/master/src"
     },
 
 

@@ -74,7 +74,7 @@ export default function Banner() {
 				</p>
 				<ul className="flex p-2 border-accent text-4xl gap-5 border-l-4 duration-300 items-center h-16">
 					<li>
-						<a href="https://github.com/HaMoOoOd25">
+						<a href="https://github.com/hamoodev">
 							<i className="fa-brands fa-github hover:text-5xl hover:text-accent duration-200"></i>
 						</a>
 					</li>
