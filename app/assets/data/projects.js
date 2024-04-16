@@ -14,8 +14,13 @@ module.exports = [
         name: "Wildlife Species Identification (ongoing)",
         description: "As part of my final year in Computer Science, I worked on my honors project and research, which focused on identifying species in images taken from the wild in Nova Scotia. I worked under the DIAG Lab from my university and NRR from Nova Scotia to make this happen.",
         tags: ["PyTorch", "OpenCV", "Python", "Deep Learning", "ResNet", "FasterRCNN", "Wandb"],
-        imageURL: nacti,
         link: "https://diaglab.cs.mun.ca/"
+    },
+    {
+        name: "Maze Police Game",
+        description: "Developed a game using ThreeJs where the player will be located in a randomized backtrack generated maze. The player has to escape the maze while avoid getting detected by the police. The police has patroling and chasing AI algorithm implemented.",
+        tags: ["ThreeJS", "Javascript", "AI", "Game Development", "Algorithms"],
+        link: "https://github.com/singhripudaman/game"
     },
     // {
     //     name: "NACTI Image Preprocessing and Classification",
