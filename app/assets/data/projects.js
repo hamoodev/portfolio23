@@ -14,6 +14,7 @@ module.exports = [
         name: "Wildlife Species Identification (ongoing)",
         description: "As part of my final year in Computer Science, I worked on my honors project and research, which focused on identifying species in images taken from the wild in Nova Scotia. I worked under the DIAG Lab from my university and NRR from Nova Scotia to make this happen.",
         tags: ["PyTorch", "OpenCV", "Python", "Deep Learning", "ResNet", "FasterRCNN", "Wandb"],
+        imageURL: nacti,
         link: "https://diaglab.cs.mun.ca/"
     },
     {
