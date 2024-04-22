@@ -15,7 +15,7 @@ module.exports = [
         description: "As part of my final year in Computer Science, I worked on my honors project and research, which focused on identifying species in images taken from the wild in Nova Scotia. I worked under the DIAG Lab from my university and NRR from Nova Scotia to make this happen.",
         tags: ["PyTorch", "OpenCV", "Python", "Deep Learning", "ResNet", "FasterRCNN", "Wandb"],
         imageURL: nacti,
-        link: "https://hamoodev.notion.site/NRR-Wildlife-Camera-Trap-Detection-c5e0ba020d0a4c8aa6a2703a1426f6a0?pvs=4"
+        link: "https://mbalfaqih.notion.site/NRR-Wildlife-Camera-Trap-Detector-8d006fa4c25441d387c246921d059063?pvs=74"
     },
     {
         name: "Maze Police Game",
