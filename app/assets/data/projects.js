@@ -2,6 +2,7 @@ import cifar10 from '../images/projects/cifar10.png'
 import comp2005 from '../images/projects/comp2005.png'
 import coremenus from '../images/projects/coremenus.png'
 import dhall from '../images/projects/dhall.png'
+import game from '../images/projects/game.png'
 import gdq from '../images/projects/gdq.png'
 import nacti from '../images/projects/nacti.jpg'
 import school from '../images/projects/school.png'
@@ -21,7 +22,8 @@ module.exports = [
         name: "Maze Police Game",
         description: "Developed a game using ThreeJs where the player will be located in a randomized backtrack generated maze. The player has to escape the maze while avoid getting detected by the police. The police has patroling and chasing AI algorithm implemented.",
         tags: ["ThreeJS", "Javascript", "AI", "Game Development", "Algorithms"],
-        link: "https://github.com/singhripudaman/game"
+        link: "https://github.com/hamoodev/policemazegame",
+        imageURL: game
     },
     // {
     //     name: "NACTI Image Preprocessing and Classification",
