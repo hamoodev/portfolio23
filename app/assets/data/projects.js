@@ -22,7 +22,7 @@ module.exports = [
         name: "Maze Police Game",
         description: "Developed a game using ThreeJs where the player will be located in a randomized backtrack generated maze. The player has to escape the maze while avoid getting detected by the police. The police has patroling and chasing AI algorithm implemented.",
         tags: ["ThreeJS", "Javascript", "AI", "Game Development", "Algorithms"],
-        link: "https://github.com/hamoodev/policemazegame",
+        link: "https://policemazegame.netlify.app",
         imageURL: game
     },
     // {
