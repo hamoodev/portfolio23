@@ -17,7 +17,7 @@ export default function Banner() {
       let interval = setInterval(() => {
         let newText = text
           .split("")
-          .map((letter, i) => {
+          .map((letter: any, i: number) => {
             if (i < iterations) return defaultText[i];
             return letters[Math.floor(Math.random() * 26)];
           })
@@ -36,7 +36,7 @@ export default function Banner() {
   return (
     <section className="bg-primary text-white min-h-screen flex items-center justify-center">
       <img
-        className=" absolute bottom-0 right-0 w-56 md:w-96"
+        className=" absolute hidden md:block bottom-0 right-0 w-56 md:w-96"
         src={bannerImage}
         alt=""
       />
