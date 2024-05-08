@@ -19,20 +19,6 @@ module.exports = [
         link: "https://mbalfaqih.notion.site/NRR-Wildlife-Camera-Trap-Detector-8d006fa4c25441d387c246921d059063?pvs=74"
     },
     {
-        name: "Maze Police Game",
-        description: "Developed a game using ThreeJs where the player will be located in a randomized backtrack generated maze. The player has to escape the maze while avoid getting detected by the police. The police has patroling and chasing AI algorithm implemented.",
-        tags: ["ThreeJS", "Javascript", "AI", "Game Development", "Algorithms"],
-        link: "https://policemazegame.netlify.app",
-        imageURL: game
-    },
-    // {
-    //     name: "NACTI Image Preprocessing and Classification",
-    //     description: "My Teammate and I explored preprocessing techniques for image classification using the North America Camera Trap dataset and CIFAR10. I developed PyTorch models, employing AlexNet and ResNet50. Additionally, FasterRCNN was used for image segmentation. Find the project's source code, report, and presentation below.",
-    //     tags: ["PyTorch", "OpenCV", "Python", "ResNet", "AlexNet", "FasterRCNN", "Wandb"],
-    //     link: "https://github.com/MUN-McIntyre/course-project-project-hamood",
-    //     imageURL: nacti,
-    // },
-    {
         name: "William Wick (Game Project)",
         description: "Developed a custom game engine with my team to build a top-down shooter game called William Wick. We used C++, SFML, and IMGUI to build the game engine. Everything in the game engine from physics to rendering was done from scratch.",
         tags: ["C++", "SFML", "IMGUI", "Game Physics", "Game Design", "ECS"],
@@ -40,18 +26,25 @@ module.exports = [
         imageURL: williamWick,
     },
     {
+        name: "Coremenus",
+        description: "Coremenus is a user-friendly software solution that simplifies the process of creating and managing digital menus for restaurants. It allows businesses to create visually appealing menus that can be easily updated in real-time. This project is my first SaaS model, and I learnt a lot building it.",
+        tags: ["VueJs", "NuxtJs", "ExpressJs", "NodeJs", "MySQL", "AWS"],
+        link: "https://mbalfaqih.notion.site/Coremenus-1d7727eeae30450b9852fcd800b4ff42?pvs=4",
+        imageURL: coremenus
+    },
+    {
+        name: "Maze Police Game",
+        description: "Developed a game using ThreeJs where the player will be located in a randomized backtrack generated maze. The player has to escape the maze while avoid getting detected by the police. The police has patroling and chasing AI algorithm implemented.",
+        tags: ["ThreeJS", "Javascript", "AI", "Game Development", "Algorithms"],
+        link: "https://policemazegame.netlify.app",
+        imageURL: game
+    },
+    {
         name: "CIFAR10 Classifier   ",
         description: "This a deep learning model for classifying cifar10 images. I used PyTorch and OpenCv to preprocess the images, and then build a custom model to classify the images. I ended up with a 93% accuracy on the test set.",
         tags: ["PyTorch", "Python3", "Machine Learning", "Deep Learning", "Image Classification", "OpenCV"],
         imageURL: cifar10,
         link: "https://github.com/MUN-McIntyre/course-project-project-hamood",
-    },
-    {
-        name: "Coremenus",
-        description: "Coremenus is a user-friendly software solution that simplifies the process of creating and managing digital menus for restaurants. It allows businesses to create visually appealing menus that can be easily updated in real-time. This project is my first SaaS model, and I learnt a lot building it.",
-        tags: ["VueJs", "NuxtJs", "ExpressJs", "NodeJs", "MySQL", "AWS"],
-        link: "https://coremenus.com",
-        imageURL: coremenus
     },
     {
         name: "Mun Dhall Menu App",
