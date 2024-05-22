@@ -15,7 +15,7 @@ module.exports = [
     {
         name: "MediSync",
         description: "A hackathon winning solution that enables medical professionals with no technical background interact with their data throught chatting.",
-        tage: ["React", "Tailwind", "ExpressJS", "Flask", "Vector Databases", "RAG", "OpenAI", "LLM"],
+        tags: ["React", "Tailwind", "ExpressJS", "Flask", "Vector Databases", "RAG", "OpenAI", "LLM"],
         imageURL: medisync,
         link: "https://www.youtube.com/watch?v=0E2VGkUw9dQ"
     },
