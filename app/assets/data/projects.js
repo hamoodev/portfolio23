@@ -9,8 +9,16 @@ import school from '../images/projects/school.png'
 import surgeon from '../images/projects/surgeon.png'
 import token from '../images/projects/token.png'
 import williamWick from '../images/projects/williamwick.png'
+import medisync from '../images/projects/medisync.png'
 
 module.exports = [
+    {
+        name: "MediSync",
+        description: "A hackathon winning solution that enables medical professionals with no technical background interact with their data throught chatting.",
+        tage: ["React", "Tailwind", "ExpressJS", "Flask", "Vector Databases", "RAG", "OpenAI", "LLM"],
+        imageURL: medisync,
+        link: "https://www.youtube.com/watch?v=0E2VGkUw9dQ"
+    },
     {
         name: "Wildlife Species Identification (ongoing)",
         description: "As part of my final year in Computer Science, I worked on my honors project and research, which focused on identifying species in images taken from the wild in Nova Scotia. I worked under the DIAG Lab from my university and NRR from Nova Scotia to make this happen.",
