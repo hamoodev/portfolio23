@@ -13,18 +13,18 @@ import medisync from '../images/projects/medisync.png'
 
 module.exports = [
     {
+        name: "Automatically Detecting Wildlife Species from Camera Trap Images",
+        description: "My honors research is focused on detecting and classifying species in images taken from the wild in Nova Scotia. I worked one this project with DIAG Lab at Memorial University and NRR Lab from Nova Scotia.",
+        tags: ["PyTorch", "OpenCV", "Python", "Deep Learning", "ResNet", "FasterRCNN", "Wandb"],
+        imageURL: nacti,
+        link: "https://mbalfaqih.notion.site/NRR-Wildlife-Camera-Trap-Detector-8d006fa4c25441d387c246921d059063?pvs=74"
+    },
+    {
         name: "MediSync",
         description: "A hackathon winning solution that enables medical professionals with no technical background interact with their data throught chatting.",
         tags: ["React", "Tailwind", "ExpressJS", "Flask", "Vector Databases", "RAG", "OpenAI", "LLM"],
         imageURL: medisync,
         link: "https://www.youtube.com/watch?v=0E2VGkUw9dQ"
-    },
-    {
-        name: "Wildlife Species Identification (ongoing)",
-        description: "As part of my final year in Computer Science, I worked on my honors project and research, which focused on identifying species in images taken from the wild in Nova Scotia. I worked under the DIAG Lab from my university and NRR from Nova Scotia to make this happen.",
-        tags: ["PyTorch", "OpenCV", "Python", "Deep Learning", "ResNet", "FasterRCNN", "Wandb"],
-        imageURL: nacti,
-        link: "https://mbalfaqih.notion.site/NRR-Wildlife-Camera-Trap-Detector-8d006fa4c25441d387c246921d059063?pvs=74"
     },
     {
         name: "William Wick (Game Project)",
