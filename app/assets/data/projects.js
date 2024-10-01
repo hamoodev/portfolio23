@@ -10,13 +10,15 @@ import surgeon from '../images/projects/surgeon.png'
 import token from '../images/projects/token.png'
 import williamWick from '../images/projects/williamwick.png'
 import medisync from '../images/projects/medisync.png'
+import wildscan from '../images/projects/wildscan.png'
+import foodquest from '../images/projects/foodquest.png'
 
 module.exports = [
     {
-        name: "Automatically Detecting Wildlife Species from Camera Trap Images",
+        name: "Wildlife Species Detector",
         description: "My honors research is focused on detecting and classifying species in images taken from the wild in Nova Scotia. I worked one this project with DIAG Lab at Memorial University and NRR Lab from Nova Scotia.",
         tags: ["PyTorch", "OpenCV", "Python", "Deep Learning", "ResNet", "FasterRCNN", "Wandb"],
-        imageURL: nacti,
+        imageURL: wildscan,
         link: "https://mbalfaqih.notion.site/NRR-Wildlife-Camera-Trap-Detector-8d006fa4c25441d387c246921d059063?pvs=74"
     },
     {
@@ -25,6 +27,12 @@ module.exports = [
         tags: ["React", "Tailwind", "ExpressJS", "Flask", "Vector Databases", "RAG", "OpenAI", "LLM"],
         imageURL: medisync,
         link: "https://www.youtube.com/watch?v=0E2VGkUw9dQ"
+    },
+    {
+        name: "FoodQuest (Soon)",
+        description: "FoodQuest is gamified application that help school children interact with community gardens to increase agriculture awarness and interest.",
+        tags: ["React Native", "ExpressJS"],
+        imageURL: foodquest,
     },
     {
         name: "William Wick (Game Project)",
