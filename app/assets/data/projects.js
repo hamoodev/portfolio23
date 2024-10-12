@@ -24,10 +24,10 @@ module.exports = [
     },
     {
         name: "Jungle AI coach",
-        description: "This is a league of legends coach for junglers powered by AI. I tested multiple models such as SVM or decision tree to suggest players on what they should do. I used OpenAI GPT to generate text and turn it into speech. The interface was done using Overwolf, javascript, HTML, and CSS.",
+        description: "This is a league of legends coach for junglers powered by AI. I tested multiple models such as SVM or decision tree to suggest players on what they should do. I used OpenAI GPT to generate text and turn it into speech. Github with demo below.",
         tags: ["OpenAI", "Machine Learning", "Python", "Javascript", "FastAPI", "SciKit Learn"],
         imageURL: lol,
-        link: "https://youtu.be/0AXzekQ-uBk"
+        link: "https://github.com/hamoodev/lolAICoach"
     },
     {
         name: "MediSync",
