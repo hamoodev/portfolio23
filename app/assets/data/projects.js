@@ -12,6 +12,7 @@ import williamWick from '../images/projects/williamwick.png'
 import medisync from '../images/projects/medisync.png'
 import wildscan from '../images/projects/wildscan.png'
 import foodquest from '../images/projects/foodquest.png'
+import lol from '../images/projects/lol.webp'
 
 module.exports = [
     {
@@ -20,6 +21,13 @@ module.exports = [
         tags: ["PyTorch", "OpenCV", "Python", "Deep Learning", "ResNet", "FasterRCNN", "Wandb"],
         imageURL: wildscan,
         link: "https://mbalfaqih.notion.site/NRR-Wildlife-Camera-Trap-Detector-8d006fa4c25441d387c246921d059063?pvs=74"
+    },
+    {
+        name: "Jungle AI coach",
+        description: "This is a league of legends coach for junglers powered by AI. I tested multiple models such as SVM or decision tree to suggest players on what they should do. I used OpenAI GPT to generate text and turn it into speech. The interface was done using Overwolf, javascript, HTML, and CSS.",
+        tags: ["OpenAI", "Machine Learning", "Python", "Javascript", "FastAPI", "SciKit Learn"],
+        imageURL: lol,
+        link: "https://youtu.be/0AXzekQ-uBk"
     },
     {
         name: "MediSync",
