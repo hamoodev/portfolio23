@@ -13,8 +13,17 @@ import medisync from '../images/projects/medisync.png'
 import wildscan from '../images/projects/wildscan.png'
 import foodquest from '../images/projects/foodquest.png'
 import lol from '../images/projects/lol.webp'
+import carrental from '../images/projects/carrental.png'
+import rtsgame from '../images/projects/rtsgame.png'
 
 module.exports = [
+    {
+        name: "RTS Grid Game",
+        description: "I am currently working on a real time  strategy game inspired by Civilization. I am using Godot 3D with GDScript. I uploaded a very early demo.",
+        tags: ["Godot"],
+        imageURL: rtsgame,
+        link: "https://youtu.be/D98B6Uv5I38"
+    },
     {
         name: "Wildlife Species Detector",
         description: "My honors research is focused on detecting and classifying species in images taken from the wild in Nova Scotia. I worked one this project with DIAG Lab at Memorial University and NRR Lab from Nova Scotia.",
@@ -35,6 +44,13 @@ module.exports = [
         tags: ["React", "Tailwind", "ExpressJS", "Flask", "Vector Databases", "RAG", "OpenAI", "LLM"],
         imageURL: medisync,
         link: "https://www.youtube.com/watch?v=0E2VGkUw9dQ"
+    },
+    {
+        name: "Car Rental Agency Demo",
+        description: "Course Project for COMP 4754. Database Course",
+        tags: ["MySQL", "React", "ExpressJS", "Tailwind"],
+        imageURL: carrental,
+        link: "https://github.com/hamoodev/comp4754"
     },
     {
         name: "FoodQuest (Soon)",
