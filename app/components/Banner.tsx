@@ -66,7 +66,7 @@ export default function Banner() {
           </li>
         </ul>
         <p>
-          I am a software developer that loves building unique web experience. I
+          I am a software developer that loves building unique web experiences. I
           am enthusiastic about studying Machine Learning and Medical Image
           Analysis to develop the medical field.
         </p>
