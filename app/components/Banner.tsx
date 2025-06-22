@@ -58,7 +58,7 @@ export default function Banner() {
         <ul>
           <li className="flex items-center gap-3">
             <i className="fa-solid fa-code text-accent"></i>
-            <span>Software Developer </span>
+            <span>Software Developer @ <a href="http://trophi.ai">trophi.ai</a></span>
           </li>
           <li className="flex items-center gap-3">
             <i className="fa-solid fa-book-open text-accent"></i>
@@ -66,9 +66,9 @@ export default function Banner() {
           </li>
         </ul>
         <p>
-          I am a software developer that loves building unique web experiences. I
-          am enthusiastic about studying Machine Learning and Medical Image
-          Analysis to develop the medical field.
+          I am a software developer that loves building unique experiences. I
+          am enthusiastic about applied Data Science and Computer Vision.
+          Currently working on Rocket League AI with an amazing team at <a href="http://trophi.ai">trophi.ai</a>. 
         </p>
         <ul className="flex p-2 border-accent text-4xl gap-5 border-l-4 duration-300 items-center h-16">
           <li>
