@@ -13,10 +13,18 @@ import medisync from '../images/projects/medisync.png'
 import wildscan from '../images/projects/wildscan.png'
 import foodquest from '../images/projects/foodquest.png'
 import lol from '../images/projects/lol.webp'
+import lol_draft from '../images/projects/lol_draft.png'
 import carrental from '../images/projects/carrental.png'
 import rtsgame from '../images/projects/rtsgame.png'
 
 module.exports = [
+    {
+        name: "League of Legends Draft Predictor",
+        description: "I trained an LSTM model to predict the draft of league of legends games. I used the data from 2025 tournments data to try and predict MSI 2025 drafts. ",
+        tags: ["PyTorch", "Python", "LSTM", "Machine Learning"],
+        imageURL: lol_draft,
+        link: "https://github.com/hamoodev/lolDraftPredictor"
+    },
     {
         name: "RTS Grid Game",
         description: "I am currently working on a real time  strategy game inspired by Civilization. I am using Godot 3D with GDScript. I uploaded a very early demo.",
