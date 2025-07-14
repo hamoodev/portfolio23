@@ -23,7 +23,7 @@ module.exports = [
         description: "I trained an LSTM model to predict the draft of league of legends games. I used the data from 2025 tournments data to try and predict MSI 2025 drafts. ",
         tags: ["PyTorch", "Python", "LSTM", "Machine Learning"],
         imageURL: lol_draft,
-        link: "https://github.com/hamoodev/lolDraftPredictor"
+        link: "https://github.com/hamoodev/lol_draft_predictor"
     },
     {
         name: "RTS Grid Game",
